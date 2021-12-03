@@ -62,7 +62,7 @@ const deleteLast = () => {
         <button onClick={() => updateCalc('*')}>*</button>
         <button onClick={() => updateCalc('+')}>+</button>
         <button onClick={() => updateCalc('-')}>-</button>
-        <button onClick={() => value *-1}>-/+</button>
+        {/* <button onClick={() => value *-1}>-/+</button> */}
 
         <button onClick={deleteLast}>DEL</button>
       </div>
